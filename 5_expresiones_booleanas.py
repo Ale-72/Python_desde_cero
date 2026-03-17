@@ -1,0 +1,20 @@
+#Expresiones Booleanas
+#>, >=, <, <=, ==, != Op. Relacionales
+
+x = 3 > 2
+print(x)
+
+x = 5 == 3
+print(x)
+
+x = 5 != 3
+print(x)
+
+#Operadores Logicos
+#and, or, not
+
+precio = 25
+print(precio > 20 and precio < 30)
+precio = 5
+print(precio > 20 or precio < 30)
+print(not(precio > 10))
